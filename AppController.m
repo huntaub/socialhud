@@ -117,7 +117,7 @@ replacementString:(NSString *)replacementString {
 			NSDate *date = [dict objectForKey:@"created_at"];
 			NSMutableString *text = [[NSMutableString alloc] initWithString:[dict objectForKey:@"text"]];
 			[text replaceOccurrencesOfString:@"\n" withString:@" " options:0 range:NSMakeRange(0, [text length])];
-			NSRange textRange =[text rangeOfString:@"@huntaub"];
+			NSRange textRange =[text rangeOfString:[NSString stringWithFormat:@"@%@",[[NSUserDefaults standardUserDefaults] objectForKey:@"twitterUName"]]];
 			if (textRange.location == NSNotFound){
 				[currentController newUpdateWithService:@"twitter" andText:[NSString stringWithFormat:@"%@: %@",[[dict objectForKey:@"user"] objectForKey:@"screen_name"], text] andDate:date andImportanceFactor:JHLRegularItem andId:[[dict objectForKey:@"id"] intValue]];
 			} else {

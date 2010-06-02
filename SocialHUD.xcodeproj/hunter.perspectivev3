@@ -336,7 +336,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>5A64A8A311B71A12007BA78C</string>
+										<string>5A64A8A611B71C43007BA78C</string>
 										<key>history</key>
 										<array>
 											<string>5AFE4E1311ACBB2400CA3E49</string>
@@ -751,7 +751,7 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>5A64A8A011B719C6007BA78C</string>
+		<string>5A64A8A711B71C43007BA78C</string>
 		<string>5A64A67011B5E820007BA78C</string>
 		<string>5A64A67111B5E820007BA78C</string>
 		<string>/Users/hunter/Documents/Developer/HUD/SocialHUD/SocialHUD.xcodeproj</string>
