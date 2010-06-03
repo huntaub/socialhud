@@ -14,6 +14,11 @@
 		5A64A65011B5E818007BA78C /* ServicesIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A64A64F11B5E818007BA78C /* ServicesIcon.png */; };
 		5A64A67C11B6A57C007BA78C /* SocialHUD.icns in Resources */ = {isa = PBXBuildFile; fileRef = 5A64A67B11B6A57C007BA78C /* SocialHUD.icns */; };
 		5A64A69211B6AED0007BA78C /* PreferencesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A64A69111B6AED0007BA78C /* PreferencesController.m */; };
+		5A64A8B511B71D65007BA78C /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A64A8B411B71D65007BA78C /* libxml2.dylib */; };
+		5A64A8F811B72903007BA78C /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A64A8F711B72903007BA78C /* Sparkle.framework */; };
+		5A64A90111B72906007BA78C /* Sparkle.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 5A64A8F711B72903007BA78C /* Sparkle.framework */; };
+		5A64A90411B72931007BA78C /* MKAbeFook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A64A90311B72931007BA78C /* MKAbeFook.framework */; };
+		5A64A91711B72933007BA78C /* MKAbeFook.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 5A64A90311B72931007BA78C /* MKAbeFook.framework */; };
 		5AA68E6A11AFFF5300724319 /* delete.pxm in Resources */ = {isa = PBXBuildFile; fileRef = 5AA68E5E11AFFF5300724319 /* delete.pxm */; };
 		5AA68E6B11AFFF5300724319 /* deleteOff.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AA68E5F11AFFF5300724319 /* deleteOff.png */; };
 		5AA68E6C11AFFF5300724319 /* deleteOn.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AA68E6011AFFF5300724319 /* deleteOn.png */; };
@@ -31,19 +36,10 @@
 		5AA690D911B1CA2900724319 /* mailDelete.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5AA690D711B1CA2900724319 /* mailDelete.txt */; };
 		5AA6912711B1D3F300724319 /* mailDelete.txt in Copy Scripts */ = {isa = PBXBuildFile; fileRef = 5AA690D711B1CA2900724319 /* mailDelete.txt */; };
 		5AA6912811B1D3F300724319 /* ProcessMail.scpt in Copy Scripts */ = {isa = PBXBuildFile; fileRef = 5AA690D811B1CA2900724319 /* ProcessMail.scpt */; };
-		5AA6912A11B1D40100724319 /* MKAbeFook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AA6912911B1D40100724319 /* MKAbeFook.framework */; };
-		5AA6912F11B1D40400724319 /* MKAbeFook.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 5AA6912911B1D40100724319 /* MKAbeFook.framework */; };
 		5AA691D011B22B4200724319 /* XPathQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AA691CF11B22B4200724319 /* XPathQuery.m */; };
 		5AA6927311B2FE0A00724319 /* facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AA6927211B2FE0A00724319 /* facebook.png */; };
 		5AA6931811B3753700724319 /* facebookActions.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5AA6931711B3753700724319 /* facebookActions.xib */; };
 		5AA6931A11B3777300724319 /* buzz.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AA6931911B3777300724319 /* buzz.png */; };
-		5AA6939D11B421BD00724319 /* MLApplicationGlue.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AA6939311B421BD00724319 /* MLApplicationGlue.m */; };
-		5AA6939E11B421BD00724319 /* MLCommandGlue.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AA6939511B421BD00724319 /* MLCommandGlue.m */; };
-		5AA6939F11B421BD00724319 /* MLConstantGlue.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AA6939711B421BD00724319 /* MLConstantGlue.m */; };
-		5AA693A011B421BD00724319 /* MLReferenceGlue.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AA6939A11B421BD00724319 /* MLReferenceGlue.m */; };
-		5AA693A111B421BD00724319 /* MLReferenceRendererGlue.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AA6939C11B421BD00724319 /* MLReferenceRendererGlue.m */; };
-		5AA693D711B4231A00724319 /* Appscript.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AA693D611B4231A00724319 /* Appscript.framework */; };
-		5AA693E411B4235200724319 /* Appscript.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 5AA693D611B4231A00724319 /* Appscript.framework */; };
 		5AA6951111B4BA8F00724319 /* ScriptingBridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AA6951011B4BA8F00724319 /* ScriptingBridge.framework */; };
 		5AA6952911B4C22100724319 /* Log.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AA6952711B4C22100724319 /* Log.png */; };
 		5AA6952A11B4C22100724319 /* Log.pxm in Resources */ = {isa = PBXBuildFile; fileRef = 5AA6952811B4C22100724319 /* Log.pxm */; };
@@ -57,7 +53,6 @@
 		5AFE4AA211AC943E00CA3E49 /* CustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AFE4A9E11AC943E00CA3E49 /* CustomView.m */; };
 		5AFE4AA311AC943E00CA3E49 /* CustomWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AFE4AA011AC943E00CA3E49 /* CustomWindow.m */; };
 		5AFE4AF511AC9B6F00CA3E49 /* AppController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AFE4AF411AC9B6F00CA3E49 /* AppController.m */; };
-		5AFE4C9D11ACB81800CA3E49 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AFE4C9C11ACB81800CA3E49 /* libxml2.dylib */; };
 		5AFE4CAA11ACB92200CA3E49 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AFE4CA911ACB92200CA3E49 /* Security.framework */; };
 		5AFE4DDE11ACBA3A00CA3E49 /* MGTwitterEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AFE4D8A11ACBA3A00CA3E49 /* MGTwitterEngine.m */; };
 		5AFE4DDF11ACBA3A00CA3E49 /* MGTwitterHTTPURLConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AFE4D9211ACBA3A00CA3E49 /* MGTwitterHTTPURLConnection.m */; };
@@ -153,8 +148,8 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				5AA693E411B4235200724319 /* Appscript.framework in Copy Frameworks */,
-				5AA6912F11B1D40400724319 /* MKAbeFook.framework in Copy Frameworks */,
+				5A64A91711B72933007BA78C /* MKAbeFook.framework in Copy Frameworks */,
+				5A64A90111B72906007BA78C /* Sparkle.framework in Copy Frameworks */,
 			);
 			name = "Copy Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -166,7 +161,6 @@
 		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
 		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
 		1DDD58150DA1D0A300B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		256AC3F00F4B6AF500CF3369 /* Vanishing_TextBox_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vanishing_TextBox_Prefix.pch; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
@@ -179,6 +173,9 @@
 		5A64A67B11B6A57C007BA78C /* SocialHUD.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = SocialHUD.icns; sourceTree = "<group>"; };
 		5A64A69011B6AED0007BA78C /* PreferencesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PreferencesController.h; sourceTree = "<group>"; };
 		5A64A69111B6AED0007BA78C /* PreferencesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PreferencesController.m; sourceTree = "<group>"; };
+		5A64A8B411B71D65007BA78C /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		5A64A8F711B72903007BA78C /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = "<group>"; };
+		5A64A90311B72931007BA78C /* MKAbeFook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MKAbeFook.framework; sourceTree = "<group>"; };
 		5AA68E5E11AFFF5300724319 /* delete.pxm */ = {isa = PBXFileReference; lastKnownFileType = file; path = delete.pxm; sourceTree = "<group>"; };
 		5AA68E5F11AFFF5300724319 /* deleteOff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = deleteOff.png; sourceTree = "<group>"; };
 		5AA68E6011AFFF5300724319 /* deleteOn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = deleteOn.png; sourceTree = "<group>"; };
@@ -196,26 +193,12 @@
 		5AA68EAC11B02A9600724319 /* MailActions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MailActions.m; sourceTree = "<group>"; };
 		5AA690D711B1CA2900724319 /* mailDelete.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = mailDelete.txt; path = Scripts/mailDelete.txt; sourceTree = "<group>"; };
 		5AA690D811B1CA2900724319 /* ProcessMail.scpt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.scpt; name = ProcessMail.scpt; path = Scripts/ProcessMail.scpt; sourceTree = "<group>"; };
-		5AA6912911B1D40100724319 /* MKAbeFook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MKAbeFook.framework; path = /Users/hunter/Documents/Developer/Libraries/MKAbeFook/build/Release/MKAbeFook.framework; sourceTree = "<absolute>"; };
 		5AA691CE11B22B4200724319 /* XPathQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPathQuery.h; sourceTree = "<group>"; };
 		5AA691CF11B22B4200724319 /* XPathQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPathQuery.m; sourceTree = "<group>"; };
 		5AA6927211B2FE0A00724319 /* facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = facebook.png; sourceTree = "<group>"; };
 		5AA692CF11B3712400724319 /* NSAttributedString+Hyperlink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+Hyperlink.h"; sourceTree = "<group>"; };
 		5AA6931711B3753700724319 /* facebookActions.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = facebookActions.xib; path = ActionXIBs/facebookActions.xib; sourceTree = "<group>"; };
 		5AA6931911B3777300724319 /* buzz.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buzz.png; sourceTree = "<group>"; };
-		5AA6939111B421BD00724319 /* MLAEMConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLAEMConstants.h; sourceTree = "<group>"; };
-		5AA6939211B421BD00724319 /* MLApplicationGlue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLApplicationGlue.h; sourceTree = "<group>"; };
-		5AA6939311B421BD00724319 /* MLApplicationGlue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLApplicationGlue.m; sourceTree = "<group>"; };
-		5AA6939411B421BD00724319 /* MLCommandGlue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLCommandGlue.h; sourceTree = "<group>"; };
-		5AA6939511B421BD00724319 /* MLCommandGlue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLCommandGlue.m; sourceTree = "<group>"; };
-		5AA6939611B421BD00724319 /* MLConstantGlue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLConstantGlue.h; sourceTree = "<group>"; };
-		5AA6939711B421BD00724319 /* MLConstantGlue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLConstantGlue.m; sourceTree = "<group>"; };
-		5AA6939811B421BD00724319 /* MLGlue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLGlue.h; sourceTree = "<group>"; };
-		5AA6939911B421BD00724319 /* MLReferenceGlue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLReferenceGlue.h; sourceTree = "<group>"; };
-		5AA6939A11B421BD00724319 /* MLReferenceGlue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLReferenceGlue.m; sourceTree = "<group>"; };
-		5AA6939B11B421BD00724319 /* MLReferenceRendererGlue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLReferenceRendererGlue.h; sourceTree = "<group>"; };
-		5AA6939C11B421BD00724319 /* MLReferenceRendererGlue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLReferenceRendererGlue.m; sourceTree = "<group>"; };
-		5AA693D611B4231A00724319 /* Appscript.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Appscript.framework; path = "/Users/hunter/Documents/Developer/Libraries/objc-appscript-trunk/src/AppScript/build/Release_10.5_32_64_GC_embed/Appscript.framework"; sourceTree = "<absolute>"; };
 		5AA6951011B4BA8F00724319 /* ScriptingBridge.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScriptingBridge.framework; path = System/Library/Frameworks/ScriptingBridge.framework; sourceTree = SDKROOT; };
 		5AA6952711B4C22100724319 /* Log.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Log.png; sourceTree = "<group>"; };
 		5AA6952811B4C22100724319 /* Log.pxm */ = {isa = PBXFileReference; lastKnownFileType = file; path = Log.pxm; sourceTree = "<group>"; };
@@ -237,7 +220,6 @@
 		5AFE4AA011AC943E00CA3E49 /* CustomWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomWindow.m; sourceTree = "<group>"; };
 		5AFE4AF311AC9B6F00CA3E49 /* AppController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppController.h; sourceTree = "<group>"; };
 		5AFE4AF411AC9B6F00CA3E49 /* AppController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppController.m; sourceTree = "<group>"; };
-		5AFE4C9C11ACB81800CA3E49 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
 		5AFE4CA911ACB92200CA3E49 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		5AFE4D5D11ACBA3A00CA3E49 /* config */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = config; sourceTree = "<group>"; };
 		5AFE4D5E11ACBA3A00CA3E49 /* description */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = description; sourceTree = "<group>"; };
@@ -251,7 +233,6 @@
 		5AFE4D6711ACBA3A00CA3E49 /* pre-commit.sample */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "pre-commit.sample"; sourceTree = "<group>"; };
 		5AFE4D6811ACBA3A00CA3E49 /* pre-rebase.sample */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "pre-rebase.sample"; sourceTree = "<group>"; };
 		5AFE4D6911ACBA3A00CA3E49 /* prepare-commit-msg.sample */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "prepare-commit-msg.sample"; sourceTree = "<group>"; };
-		5AFE4D6A11ACBA3A00CA3E49 /* update.sample */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = update.sample; sourceTree = "<group>"; };
 		5AFE4D6B11ACBA3A00CA3E49 /* index */ = {isa = PBXFileReference; lastKnownFileType = file; path = index; sourceTree = "<group>"; };
 		5AFE4D6D11ACBA3A00CA3E49 /* exclude */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = exclude; sourceTree = "<group>"; };
 		5AFE4D6F11ACBA3A00CA3E49 /* HEAD */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = HEAD; sourceTree = "<group>"; };
@@ -261,7 +242,6 @@
 		5AFE4D7811ACBA3A00CA3E49 /* packed-refs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "packed-refs"; sourceTree = "<group>"; };
 		5AFE4D7B11ACBA3A00CA3E49 /* master */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = master; sourceTree = "<group>"; };
 		5AFE4D7E11ACBA3A00CA3E49 /* HEAD */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = HEAD; sourceTree = "<group>"; };
-		5AFE4D8011ACBA3A00CA3E49 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		5AFE4D8911ACBA3A00CA3E49 /* MGTwitterEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGTwitterEngine.h; sourceTree = "<group>"; };
 		5AFE4D8A11ACBA3A00CA3E49 /* MGTwitterEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGTwitterEngine.m; sourceTree = "<group>"; };
 		5AFE4D8B11ACBA3A00CA3E49 /* MGTwitterEngine.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MGTwitterEngine.xcodeproj; path = ../../Libraries/MGTwitterEngine/MGTwitterEngine.xcodeproj; sourceTree = SOURCE_ROOT; };
@@ -361,11 +341,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
-				5AFE4C9D11ACB81800CA3E49 /* libxml2.dylib in Frameworks */,
 				5AFE4CAA11ACB92200CA3E49 /* Security.framework in Frameworks */,
-				5AA6912A11B1D40100724319 /* MKAbeFook.framework in Frameworks */,
-				5AA693D711B4231A00724319 /* Appscript.framework in Frameworks */,
 				5AA6951111B4BA8F00724319 /* ScriptingBridge.framework in Frameworks */,
+				5A64A8B511B71D65007BA78C /* libxml2.dylib in Frameworks */,
+				5A64A8F811B72903007BA78C /* Sparkle.framework in Frameworks */,
+				5A64A90411B72931007BA78C /* MKAbeFook.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,13 +376,13 @@
 		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5A64A90311B72931007BA78C /* MKAbeFook.framework */,
+				5A64A8F711B72903007BA78C /* Sparkle.framework */,
+				5A64A8B411B71D65007BA78C /* libxml2.dylib */,
 				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
 				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
 				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
-				5AFE4C9C11ACB81800CA3E49 /* libxml2.dylib */,
 				5AFE4CA911ACB92200CA3E49 /* Security.framework */,
-				5AA6912911B1D40100724319 /* MKAbeFook.framework */,
-				5AA693D611B4231A00724319 /* Appscript.framework */,
 				5AA6951011B4BA8F00724319 /* ScriptingBridge.framework */,
 			);
 			name = "Other Frameworks";
@@ -432,7 +412,6 @@
 		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
-				256AC3F00F4B6AF500CF3369 /* Vanishing_TextBox_Prefix.pch */,
 				29B97316FDCFA39411CA2CEA /* main.m */,
 			);
 			name = "Other Sources";
@@ -516,25 +495,6 @@
 			name = Libraries;
 			sourceTree = "<group>";
 		};
-		5AA6939011B421BD00724319 /* MLGlue */ = {
-			isa = PBXGroup;
-			children = (
-				5AA6939111B421BD00724319 /* MLAEMConstants.h */,
-				5AA6939211B421BD00724319 /* MLApplicationGlue.h */,
-				5AA6939311B421BD00724319 /* MLApplicationGlue.m */,
-				5AA6939411B421BD00724319 /* MLCommandGlue.h */,
-				5AA6939511B421BD00724319 /* MLCommandGlue.m */,
-				5AA6939611B421BD00724319 /* MLConstantGlue.h */,
-				5AA6939711B421BD00724319 /* MLConstantGlue.m */,
-				5AA6939811B421BD00724319 /* MLGlue.h */,
-				5AA6939911B421BD00724319 /* MLReferenceGlue.h */,
-				5AA6939A11B421BD00724319 /* MLReferenceGlue.m */,
-				5AA6939B11B421BD00724319 /* MLReferenceRendererGlue.h */,
-				5AA6939C11B421BD00724319 /* MLReferenceRendererGlue.m */,
-			);
-			path = MLGlue;
-			sourceTree = "<group>";
-		};
 		5AA6952611B4C22100724319 /* LogPictures */ = {
 			isa = PBXGroup;
 			children = (
@@ -570,7 +530,6 @@
 			isa = PBXGroup;
 			children = (
 				5AFE4D5B11ACBA3A00CA3E49 /* .git */,
-				5AFE4D8011ACBA3A00CA3E49 /* .gitignore */,
 				5AFE4D8911ACBA3A00CA3E49 /* MGTwitterEngine.h */,
 				5AFE4D8A11ACBA3A00CA3E49 /* MGTwitterEngine.m */,
 				5AFE4D8B11ACBA3A00CA3E49 /* MGTwitterEngine.xcodeproj */,
@@ -650,7 +609,6 @@
 				5AFE4D6711ACBA3A00CA3E49 /* pre-commit.sample */,
 				5AFE4D6811ACBA3A00CA3E49 /* pre-rebase.sample */,
 				5AFE4D6911ACBA3A00CA3E49 /* prepare-commit-msg.sample */,
-				5AFE4D6A11ACBA3A00CA3E49 /* update.sample */,
 			);
 			path = hooks;
 			sourceTree = "<group>";
@@ -836,7 +794,6 @@
 		5AFE50FF11ADB5D400CA3E49 /* AppScript */ = {
 			isa = PBXGroup;
 			children = (
-				5AA6939011B421BD00724319 /* MLGlue */,
 				5AFE50FE11ADB5D100CA3E49 /* Mail.h */,
 			);
 			name = AppScript;
@@ -1088,11 +1045,6 @@
 				5ADAD01611AF0D9E00B855BE /* ActionPadWindow.m in Sources */,
 				5AA68EAD11B02A9600724319 /* MailActions.m in Sources */,
 				5AA691D011B22B4200724319 /* XPathQuery.m in Sources */,
-				5AA6939D11B421BD00724319 /* MLApplicationGlue.m in Sources */,
-				5AA6939E11B421BD00724319 /* MLCommandGlue.m in Sources */,
-				5AA6939F11B421BD00724319 /* MLConstantGlue.m in Sources */,
-				5AA693A011B421BD00724319 /* MLReferenceGlue.m in Sources */,
-				5AA693A111B421BD00724319 /* MLReferenceRendererGlue.m in Sources */,
 				5A64A46A11B5D81B007BA78C /* SocialHUDAppDelegate.m in Sources */,
 				5A64A69211B6AED0007BA78C /* PreferencesController.m in Sources */,
 			);
@@ -1137,6 +1089,8 @@
 					"$(inherited)",
 					"\"$(SRCROOT)/../../Libraries/MKAbeFook/build/Release\"",
 					"\"$(SRCROOT)/../../Libraries/objc-appscript-trunk/src/AppScript/build/Release_10.5_32_64_GC_embed\"",
+					"\"$(SRCROOT)/../../Libraries/Sparkle\"",
+					"\"$(SRCROOT)\"",
 				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = YES;
@@ -1160,13 +1114,16 @@
 					"$(inherited)",
 					"\"$(SRCROOT)/../../Libraries/MKAbeFook/build/Release\"",
 					"\"$(SRCROOT)/../../Libraries/objc-appscript-trunk/src/AppScript/build/Release_10.5_32_64_GC_embed\"",
+					"\"$(SRCROOT)/../../Libraries/Sparkle\"",
+					"\"$(SRCROOT)\"",
 				);
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = Vanishing_TextBox_Prefix.pch;
-				INFOPLIST_FILE = "Vanishing_TextBox-Info.plist";
+				GCC_PREFIX_HEADER = SocialHUD_Prefix.pch;
+				HEADER_SEARCH_PATHS = "/usr/include/libxml2/**";
+				INFOPLIST_FILE = "SocialHUD-Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";
-				PRODUCT_NAME = "Vanishing TextBox";
+				PRODUCT_NAME = SocialHUD;
 			};
 			name = Release;
 		};

@@ -7,7 +7,7 @@
 //
 
 #import "HyperLinkTextView.h"
-#import "NSAttributedString+Hyperlink.h"
+//#import "NSAttributedString+Hyperlink.h"
 
 @implementation HyperLinkTextView
 

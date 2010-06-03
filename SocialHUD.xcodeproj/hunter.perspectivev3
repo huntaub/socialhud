@@ -231,6 +231,8 @@
 			<key>Layout</key>
 			<array>
 				<dict>
+					<key>BecomeActive</key>
+					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -276,20 +278,20 @@
 								<string>29B97323FDCFA39411CA2CEA</string>
 								<string>1058C7A2FEA54F0111CA2CBB</string>
 								<string>1C37FBAC04509CD000000102</string>
+								<string>5A64A8C011B71DED007BA78C</string>
 								<string>1C37FAAC04509CD000000102</string>
 								<string>1C77FABC04509CD000000102</string>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>20</integer>
-									<integer>15</integer>
-									<integer>4</integer>
-									<integer>0</integer>
+									<integer>58</integer>
+									<integer>57</integer>
+									<integer>56</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
-							<string>{{0, 0}, {325, 823}}</string>
+							<string>{{0, 418}, {325, 823}}</string>
 						</dict>
 						<key>PBXTopSmartGroupGIDs</key>
 						<array/>
@@ -317,14 +319,12 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>5AFE4B2311ACAABA00CA3E49</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>AppController.m</string>
+								<string>SocialHUD-Info.plist</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -332,11 +332,11 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>5AFE4B2411ACAABA00CA3E49</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>AppController.m</string>
+										<string>SocialHUD-Info.plist</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>5A64A8A611B71C43007BA78C</string>
+										<string>5A64A90211B7290F007BA78C</string>
 										<key>history</key>
 										<array>
 											<string>5AFE4E1311ACBB2400CA3E49</string>
@@ -350,18 +350,15 @@
 											<string>5AFE516111AE0F2200CA3E49</string>
 											<string>5ADACE0B11AECAD700B855BE</string>
 											<string>5ADACE0C11AECAD700B855BE</string>
-											<string>5ADACE0D11AECAD700B855BE</string>
 											<string>5ADACE0E11AECAD700B855BE</string>
 											<string>5AA68E8A11B0021700724319</string>
 											<string>5AA68E8B11B0021700724319</string>
 											<string>5AA68F6E11B04B8E00724319</string>
 											<string>5AA68F7011B04B8E00724319</string>
-											<string>5AA68F7311B04B8E00724319</string>
 											<string>5AA68F9011B0672500724319</string>
 											<string>5AA691DE11B22BC500724319</string>
 											<string>5AA691DF11B22BC500724319</string>
 											<string>5AA691E011B22BC500724319</string>
-											<string>5AA691FC11B2ED3900724319</string>
 											<string>5AA692A311B309BE00724319</string>
 											<string>5AA692D411B3717F00724319</string>
 											<string>5AA692D511B3717F00724319</string>
@@ -399,7 +396,6 @@
 											<string>5AA694F911B4B8EB00724319</string>
 											<string>5AA694FA11B4B8EB00724319</string>
 											<string>5AA694FB11B4B8EB00724319</string>
-											<string>5AA694FC11B4B8EB00724319</string>
 											<string>5AA6951C11B4BB3A00724319</string>
 											<string>5AA6951D11B4BB3A00724319</string>
 											<string>5AA6951E11B4BB3A00724319</string>
@@ -407,10 +403,8 @@
 											<string>5AA6952011B4BB3A00724319</string>
 											<string>5AA6952311B4BB3A00724319</string>
 											<string>5AA6953A11B4C47400724319</string>
-											<string>5A64A65611B5E820007BA78C</string>
 											<string>5A64A65711B5E820007BA78C</string>
 											<string>5A64A65811B5E820007BA78C</string>
-											<string>5A64A65911B5E820007BA78C</string>
 											<string>5A64A65A11B5E820007BA78C</string>
 											<string>5A64A65B11B5E820007BA78C</string>
 											<string>5A64A65C11B5E820007BA78C</string>
@@ -421,7 +415,6 @@
 											<string>5A64A66111B5E820007BA78C</string>
 											<string>5A64A66211B5E820007BA78C</string>
 											<string>5A64A67411B5E8FF007BA78C</string>
-											<string>5A64A68511B6A5FF007BA78C</string>
 											<string>5A64A68611B6A5FF007BA78C</string>
 											<string>5A64A68711B6A5FF007BA78C</string>
 											<string>5A64A6F711B6BE8D007BA78C</string>
@@ -432,9 +425,19 @@
 											<string>5A64A87511B71764007BA78C</string>
 											<string>5A64A88A11B71959007BA78C</string>
 											<string>5A64A89011B71978007BA78C</string>
-											<string>5A64A89111B71978007BA78C</string>
 											<string>5A64A89211B71978007BA78C</string>
-											<string>5A64A8A211B71A07007BA78C</string>
+											<string>5A64A8C111B71DED007BA78C</string>
+											<string>5A64A8C211B71DED007BA78C</string>
+											<string>5A64A8C311B71DED007BA78C</string>
+											<string>5A64A8CB11B71E2A007BA78C</string>
+											<string>5A64A8CC11B71E2A007BA78C</string>
+											<string>5A64A8CD11B71E2A007BA78C</string>
+											<string>5A64A8DE11B72842007BA78C</string>
+											<string>5A64A8DF11B72842007BA78C</string>
+											<string>5A64A8E011B72842007BA78C</string>
+											<string>5A64A8E111B72842007BA78C</string>
+											<string>5A64A8E211B72842007BA78C</string>
+											<string>5A64A8E311B72842007BA78C</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -529,7 +532,7 @@
 									<key>GeometryConfiguration</key>
 									<dict>
 										<key>Frame</key>
-										<string>{{10, 27}, {929, 166}}</string>
+										<string>{{10, 27}, {1024, 166}}</string>
 									</dict>
 									<key>Module</key>
 									<string>PBXBuildResultsModule</string>
@@ -751,7 +754,6 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>5A64A8A711B71C43007BA78C</string>
 		<string>5A64A67011B5E820007BA78C</string>
 		<string>5A64A67111B5E820007BA78C</string>
 		<string>/Users/hunter/Documents/Developer/HUD/SocialHUD/SocialHUD.xcodeproj</string>
