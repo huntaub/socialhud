@@ -1,3 +1,4 @@
 /build/*
 /Scripts/*
 AppSecrets.h
+*.pem

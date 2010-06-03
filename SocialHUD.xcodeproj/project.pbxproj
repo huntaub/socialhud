@@ -19,6 +19,7 @@
 		5A64A90111B72906007BA78C /* Sparkle.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 5A64A8F711B72903007BA78C /* Sparkle.framework */; };
 		5A64A90411B72931007BA78C /* MKAbeFook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A64A90311B72931007BA78C /* MKAbeFook.framework */; };
 		5A64A91711B72933007BA78C /* MKAbeFook.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = 5A64A90311B72931007BA78C /* MKAbeFook.framework */; };
+		5A64A91D11B7323A007BA78C /* dsa_pub.pem in Resources */ = {isa = PBXBuildFile; fileRef = 5A64A91C11B7323A007BA78C /* dsa_pub.pem */; };
 		5AA68E6A11AFFF5300724319 /* delete.pxm in Resources */ = {isa = PBXBuildFile; fileRef = 5AA68E5E11AFFF5300724319 /* delete.pxm */; };
 		5AA68E6B11AFFF5300724319 /* deleteOff.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AA68E5F11AFFF5300724319 /* deleteOff.png */; };
 		5AA68E6C11AFFF5300724319 /* deleteOn.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AA68E6011AFFF5300724319 /* deleteOn.png */; };
@@ -176,6 +177,7 @@
 		5A64A8B411B71D65007BA78C /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
 		5A64A8F711B72903007BA78C /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = "<group>"; };
 		5A64A90311B72931007BA78C /* MKAbeFook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MKAbeFook.framework; sourceTree = "<group>"; };
+		5A64A91C11B7323A007BA78C /* dsa_pub.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dsa_pub.pem; sourceTree = "<group>"; };
 		5AA68E5E11AFFF5300724319 /* delete.pxm */ = {isa = PBXFileReference; lastKnownFileType = file; path = delete.pxm; sourceTree = "<group>"; };
 		5AA68E5F11AFFF5300724319 /* deleteOff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = deleteOff.png; sourceTree = "<group>"; };
 		5AA68E6011AFFF5300724319 /* deleteOn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = deleteOn.png; sourceTree = "<group>"; };
@@ -399,6 +401,7 @@
 		29B97314FDCFA39411CA2CEA /* Vanishing TextBox */ = {
 			isa = PBXGroup;
 			children = (
+				5A64A91C11B7323A007BA78C /* dsa_pub.pem */,
 				5AA68F8411B04C6C00724319 /* Scripts */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
@@ -994,6 +997,7 @@
 				5A64A49211B5DA3E007BA78C /* TextBoxPNG.png in Resources */,
 				5A64A65011B5E818007BA78C /* ServicesIcon.png in Resources */,
 				5A64A67C11B6A57C007BA78C /* SocialHUD.icns in Resources */,
+				5A64A91D11B7323A007BA78C /* dsa_pub.pem in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
