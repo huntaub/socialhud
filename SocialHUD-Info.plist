@@ -7,7 +7,9 @@
 	<key>NSHumanReadableCopyright</key>
 	<string>© 2010, Hunter Leath</string>
 	<key>SUPublicDSAKeyFile</key>
-	<string></string>
+	<string>dsa_pub.pem</string>
+	<key>SUFeedURL</key>
+	<string>http://huntaub.github.com/socialhud/appcast.xml</string>
 	<key>CFBundleExecutable</key>
 	<string>${EXECUTABLE_NAME}</string>
 	<key>CFBundleIconFile</key>
